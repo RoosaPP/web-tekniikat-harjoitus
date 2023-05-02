@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/tietoja.css">
+    <script src="../silver.js"></script>
+    <title>Silverring</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+    <!---Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Silverring</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Etusivu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Tuotteet.html">Tuotteet</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tietoja.html">Tietoja yrityksestä</a>
+              </li>
+              
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <h1>Tietoja Meistä</h1>
+    <p>Olemme kotimainen pienyritys ja liikkeemme sijaitsee Korulassa. Valmistamme Sormukset käsin sekä tilauksesta teemme myös muita koruja kuten riipuksia sekä korvakoruja.
+        Käytössämme on aina laadukkaat raaka-aineet ja hankimme ne ainoastaan yrityksiltä, jotka tukevat ilmastoa sekä pitävät huolta työntekijöistään. Meillä on myös avainlippu-merkki.
+        Vaikka yrityksemme on pieni niin silti pyrimme tekemään asiat isosti ja saatkin meiltä lähes samat palvelut kuin suuremmista ketjuliikkeistä. 
+        
+        Teemme työtämme koko sydämestä ja toivomme, että voimme olla avuksi juuri sinulle. 
+        Tulethan rohkeasti kysymään jos jokin tuotteemme tai tilaustyömme kiinnostaa taikka etsit jotain aivan erityistä niin takaan, että me osaamme sen valmistaa.
+        Mikäli haluat kysyä jotain voit olla yhteydessä aukioloaikojemme mukaan soittamalla tai sitten alla olevan lomakkeen kautta. (vastaamme parin päivän sisällä lomakkeella tulleisiin kyselyihin.)
+    </p>
+    <p>Kiitos vierailustanne!</p>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    
+    <form>
+        <label for="contact">Yhteydenotto lomake:</label><br>
+        <br>
+        <label for="first name">Etunimi:</label><br>
+        <input type="text" id="name1"><br>
+        <label for="last name">Sukunimi:</label><br>
+        <input type="text" id="name2"><br>
+        <label for="email">Sähköposti:</label><br>
+        <input type="text" id="email"><br>
+        <label for="phone">Puhelinnumero:</label><br>
+        <input type="text" id="phone"><br>
+        <label for="text"></label> <br>
+        <textarea id="textarea" name="text" rows="4" cols="50" placeholder="Kirjoita tähän yhteytenoton syy" ></textarea>
+        <br>
+        <label for="box">Tärkeä</label>
+        <input type="checkbox" id="box"><br>
+        <br>
+        <button type="button" id="info1" onclick="names()">lähetä</button>
+
+        <p id="info"></p>
+
+        <div id="testi2">
+        
+      </div>
+
+    </form>  
+    <footer>
+        <div class="text-center text-black p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+         Yhteystiedot:  <br>
+         Puh. 044 555 6666<br>
+         Korukuja 15 55555 Korula<br>
+         silverring@gmail.com<br>
+        </div>
+    </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
